@@ -47,15 +47,15 @@ python asama1_oop_terminal.py
 
 ### Ekran Görüntüleri
 
-**Ana Menü:**
+### Ana Menü
+---
 ![Aşama 1 Ana Menü](screenshots/asama1_menu.png)
-
-**Kitap Ekleme:**
+### Kitap Ekleme
+---
 ![Kitap Ekleme](screenshots/asama1_kitap_ekle.png)
-
-**Kitapları Listeleme:**
+### Kitapları Listeleme
+---
 ![Kitapları Listeleme](screenshots/asama1_kitapları_listele.png)
-
 ### Menü Seçenekleri
 1. Kitap Ekle
 2. Kitap Sil
@@ -91,9 +91,9 @@ python asama2_api_entegrasyonu.py
 
 ### Ekran Görüntüleri
 
-**API ile Kitap Ekleme:**
+### API ile Kitap Ekleme
+---
 ![API ile Kitap Ekleme](screenshots/asama2_api_kitap_ekle.png)
-
 ### Test Etme
 ```bash
 pytest testler/test_asama2_api_entegrasyonu.py -v
@@ -133,15 +133,15 @@ uvicorn asama3_fastapi_web:app --reload
 
 ### Ekran Görüntüleri
 
-**FastAPI Swagger Dokümantasyonu:**
+### FastAPI Swagger Dokümantasyonu
+---
 ![FastAPI Docs](screenshots/asama3_docs_sayfa.png)
-
-**POST Endpoint Test:**
+### POST Endpoint Test
+---
 ![POST Books](screenshots/asama3_post_kitap.png)
-
-**GET Endpoint Test:**
+### GET Endpoint Test
+---
 ![GET Books](screenshots/asama3_get_kitap.png)
-
 ### API Dokümantasyonu
 Sunucu çalıştıktan sonra aşağıdaki adreslere gidebilirsiniz:
 - **Interaktif Dokümantasyon**: http://localhost:8000/docs
@@ -247,32 +247,3 @@ curl -X DELETE "http://localhost:8000/books/9780743273565"
 - **Pydantic**: Veri validasyonu
 - **pytest**: Test framework
 - **JSON**: Veri saklama formatı
-
-## Minimum Kabul Kriterleri
-
-### Aşama 1 ✅
-- Program komut satırından hatasız çalışır
-- Kitap ekleme, silme ve listeleme işlevleri çalışır
-- Veriler kalıcı olarak saklanır (library.json)
-- OOP prensiplerine uygun kod yapısı
-- Pytest testleri mevcut
-
-### Aşama 2 ✅
-- Aşama 1'in tüm işlevleri çalışmaya devam eder
-- ISBN ile Open Library API'sinden veri çekme
-- Geçersiz ISBN için hata yönetimi
-- requirements.txt güncellenmiş
-- Pytest testleri mevcut
-
-### Aşama 3 ✅
-- API sunucusu hatasız başlar
-- /docs interaktif arayüzü erişilebilir
-- Tüm endpoint'ler beklendiği gibi çalışır
-- Pydantic modelleri kullanılmış
-- Pytest testleri mevcut
-
-## Geliştirici Notları
-
-Bu proje Global AI Hub Python 202 Bootcamp programı kapsamında geliştirilmiştir. Her aşama, önceki aşamanın üzerine inşa edilerek Python'un farklı özelliklerini ve modern web geliştirme tekniklerini öğretmeyi amaçlar.
-
-Proje, gerçek dünya uygulamalarında kullanılan teknolojileri ve best practice'leri içerir.
