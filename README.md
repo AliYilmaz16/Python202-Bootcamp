@@ -7,7 +7,7 @@ Amacımız, basit bir komut satırı uygulamasından başlayarak, onu harici ver
 ## Dosya Yapısı
 
 ```
-son_dosya2/
+Python202-Bootcamp/
 ├── asama1_oop_terminal.py      # Aşama 1: OOP Terminal Uygulaması
 ├── asama2_api_entegrasyonu.py  # Aşama 2: API Entegrasyonu
 ├── asama3_fastapi_web.py       # Aşama 3: FastAPI Web Servisi
